@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="bg-body-tertiary" style="padding: 30px 100px;">
+        <div class="logo text-center"><img src="images/logo.png" alt="" width="300"></div>
+        <div class="d-flex justify-content-between align-items-center mt-3 image_sec">
+            <div class="cols d-flex align-items-center gap-2">
+                <div class="image"><img src="images/fb.png" alt="" width="30" height="30" style="cursor: pointer;">
+                </div>
+                <div class="image"><img src="images/insta.png" alt="" width="30" height="30" style="cursor: pointer;">
+                </div>
+                <div class="image"><img src="images/youtube.png" alt="" width="30" height="30" style="cursor: pointer;">
+                </div>
+            </div>
+            <div class="cols text-center text-solc" style="margin-left: 3rem;">
+                <h1 class="fs-4 fw-medium">Registration Form - SMIT</h1>
+                <p style="font-size: 13px; margin-top: 1rem;">Seevices - Education - Registration</p>
+            </div>
+            <div class="cols">
+                <button class="px-3 py-1 rounded-2 btn d-flex align-items-center gap-2 student-portal"
+                    style="border: 1.3px solid #0D6DB7; color: #0D6DB7;">
+                    <i class="fas fa-user"></i>
+                    Student Portal
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- ///////////////form section///////////////// -->
+    <section class="mt-2" style="padding-bottom: 3rem;" id="forms">
+        <div class="filters_buttons d-flex justify-content-center align-items-center gap-1">
+            <button class="btn px-4 py-2 bg-white border btn-sm filter-bt active">Registration</button>
+            <button class="btn px-4 py-2 bg-white border btn-sm filter-bt">Download Id Card</button>
+            <button class="btn px-4 py-2 bg-white border btn-sm filter-bt">Result</button>
+        </div>
+        <div class="container-fluid" style="padding: 10px 150px;">
+            <form action="" class="mt-3">
+                <div class="d-flex w-100 gap-3 input_lefts">
+                    <div class="w-100">
+                        <label for="Select-country" class="labels">Select country</label>
+                        <div class="w-100">
+                            <input type="text" class="form-control form-control-lg w-100 focust" id="Select-country"
+                                placeholder="Select country">
+                        </div>
+                    </div>
+                    <div class="w-100">
+                        <label for="Select-city" class="labels">Select city</label>
+                        <div class="w-100">
+                            <input type="text" class="form-control form-control-lg w-100 focust" id="Select-city"
+                                placeholder="Select city">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex w-100 gap-3 mt-3 input_lefts">
+                    <div class="w-100">
+                        <label for="Select-course-or-event" class="labels">Select course or event</label>
+                        <div class="w-100">
+                            <input type="text" class="form-control form-control-lg w-100 focust"
+                                id="Select-course-or-event" placeholder="Select course or event">
+                        </div>
+                    </div>
+                    <div class="w-100">
+                        <label for="Select" class="labels">Select your computer proficiency</label>
+                        <div class="w-100">
+                            <input type="text" class="form-control form-control-lg w-100 focust" id="Select"
+                                placeholder="Select your computer proficiency">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="d-flex w-100 gap-3 mt-3 input_lefts">
+                    <div class="w-100">
+                        <label for="Full" class="labels">Full name</label>
+                        <div class="w-100">
+                            <input type="text" class="form-control form-control-lg w-100 focust" id="Full"
+                                placeholder="Full name">
+                        </div>
+                    </div>
+                    <div class="w-100">
+                        <label for="Father" class="labels">Father name</label>
+                        <div class="w-100">
+                            <input type="text" class="form-control form-control-lg w-100 focust" id="Father"
+                                placeholder="Father name">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="d-flex w-100 gap-3 mt-3 input_lefts">
+                    <div class="w-100">
+                        <label for="Email" class="labels">Email</label>
+                        <div class="w-100">
+                            <input type="email" class="form-control form-control-lg w-100 focust" id="Email"
+                                placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="w-100">
+                        <label for="Phone" class="labels">Phone</label>
+                        <div class="w-100">
+                            <input type="text" class="form-control form-control-lg w-100 focust" id="Phone"
+                                placeholder="Phone">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="d-flex w-100 gap-3 mt-3 input_lefts">
+                    <div class="w-100">
+                        <label for="CNIC" class="labels">CNIC</label>
+                        <div class="w-100">
+                            <input type="text" class="form-control form-control-lg w-100 focust" id="CNIC"
+                                placeholder="CNIC">
+                        </div>
+                    </div>
+                    <div class="w-100">
+                        <label for="Father-CNIC" class="labels">Father's CNIC (optional)</label>
+                        <div class="w-100">
+                            <input type="text" class="form-control form-control-lg w-100 focust" id="Father-CNIC"
+                                placeholder="Father's CNIC (optional)">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex w-100 gap-3 mt-3 input_lefts">
+                    <div class="w-100">
+                        <label for="CNIC" class="labels">CNIC</label>
+                        <div class="w-100">
+                            <input type="text" class="form-control form-control-lg w-100 focust" id="CNIC"
+                                placeholder="CNIC">
+                        </div>
+                    </div>
+                    <div class="w-100">
+                        <label for="Father-CNIC" class="labels">Father's CNIC (optional)</label>
+                        <div class="w-100">
+                            <input type="text" class="form-control form-control-lg w-100 focust" id="Father-CNIC"
+                                placeholder="Father's CNIC (optional)">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex w-100 gap-3 mt-3 input_lefts">
+                    <div class="w-100">
+                        <label for="date" class="labels">Date of birth</label>
+                        <div class="w-100">
+                            <input type="date" class="form-control form-control-lg w-100 focust" id="date"
+                                placeholder="Date">
+                        </div>
+                    </div>
+                    <div class="w-100">
+                        <label for="Gender" class="labels">Select Gender</label>
+                        <div class="w-100">
+                            <input type="text" class="form-control form-control-lg w-100 focust" id="Gender"
+                                placeholder="Select Gender">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="w-100 mt-3">
+                    <label for="address" class="labels">Address</label>
+                    <div class="w-100">
+                        <input type="text" class="form-control form-control-lg w-100 focust" id="address"
+                            placeholder="Address">
+                    </div>
+                </div>
+
+                <div class="w-100 mt-3">
+                    <label for="Last" class="labels">Last qualification</label>
+                    <div class="w-100">
+                        <input type="text" class="form-control form-control-lg w-100 focust" id="Last"
+                            placeholder="Last qualification">
+                    </div>
+                </div>
+                <div class="w-100 mt-3">
+                    <label for="do" class="labels">Do you have a Laptop?</label>
+                    <div class="w-100">
+                        <input type="text" class="form-control form-control-lg w-100 focust" id="do"
+                            placeholder="Do you have a Laptop?">
+                    </div>
+                </div>
+
+                <div class="upload d-flex align-items-center gap-3 mt-4">
+                    <div class="prifle">
+                        <label for="file" class="labels">
+                            Picture
+                        </label>
+                        <div class="files">
+                            <input type="file" id="upload" accept=".jpg,.png,.jpeg" class="d-none">
+                            <label for="upload">+ upload</label>
+                        </div>
+                    </div>
+                    <div class="list">
+
+                        <ul class="p-0 m-0" style="list-style: none;">
+                            <li style="font-size: 12px; cursor: pointer;"> With white or blue background</li>
+                            <li style="font-size: 12px; cursor: pointer;">File size must be less than 1MB</li>
+                            <li style="font-size: 12px; cursor: pointer;">File type: jpg, jpeg, png</li>
+                            <li style="font-size: 12px; cursor: pointer;"> Upload your recent passport size picture</li>
+                            <li style="font-size: 12px; cursor: pointer;"> Your Face should be clearly visible without
+                                any Glasses</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="instuction my-3 ml-3">
+                    <ol class="p-0 m-0 end-ul">
+                        <li style="font-size: 12px; cursor: pointer;"> I hereby, solemnly declare that the data and
+                            facts mentioned herein are true and correct to the best</li>
+                        <li style="font-size: 12px; cursor: pointer;">of my knowledge. Further, I will abide by all the
+                            established and future regulations and policies of
+                            SWIT</li>
+                        <li style="font-size: 12px; cursor: pointer;"> I hereby accept the responsibilities of good
+                            conduct and guarantee that I will not be involved in
+                            any other activity, political or ethical, but learning during my stay in the program.</li>
+                        <li style="font-size: 12px; cursor: pointer;"> Defiance will render my admission canceled at any
+                            point in time.
+                            Upon completion, of the course, I will complete the required project by SWIT.</li>
+                        <li style="font-size: 12px; cursor: pointer;"> It's mandatory for female students to wear
+                            abaya/hijab in the class</li>
+                    </ol>
+                </div>
+
+                <div class="button my-4">
+                    <button class="button">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+</body>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>

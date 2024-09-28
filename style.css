@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.filter-bt:hover,
+.active {
+  background: #8dc63f !important;
+  transition: 0.4s ease;
+  color: #fff !important;
+}
+.labels {
+  color: #0d6db7 !important;
+  margin-bottom: 7px;
+  font-size: 14px;
+}
+.focust {
+  border: 1.2px solid #8dc63f;
+  font-size: 14px;
+  padding: 14px 20px;
+}
+.focust:focus {
+  border: 1px solid #0d6db7;
+}
+.focust::placeholder {
+  color: #bfbfbf !important;
+}
+.files {
+  background: #fafafa;
+  width: 130px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.files:hover {
+  border: 1px dotted #0d6db7 !important;
+}
+
+.button button {
+  width: 100%;
+  padding: 13px 20px;
+  background: #0d6db7 !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  font-size: 14px;
+}
+.instuction {
+  padding-left: 20px;
+}
+
+@media (max-width: 900px) {
+  #forms .container-fluid {
+    padding: 10px 100px !important;
+  }
+}
+@media (max-width: 800px) {
+  .image_sec {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  #forms .container-fluid {
+    padding: 10px 50px !important;
+  }
+  header {
+    padding: 30px 50px !important;
+  }
+}
+.student-portal:hover {
+  background: #8dc63f;
+  color: #fff !important;
+  border: none !important;
+}
+@media (max-width: 686px) {
+  #forms .container-fluid {
+    padding: 10px !important;
+  }
+  .input_lefts {
+    flex-direction: column !important;
+  }
+  .cols {
+    text-align: center !important;
+  }
+  .text-solc {
+    margin: 0 !important;
+  }
+  .logo img {
+    width: 100%;
+  }
+  header {
+    padding: 10px !important;
+  }
+  .filters_buttons {
+    padding: 0 10px;
+    flex-wrap: wrap !important;
+  }
+  .filters_buttons button {
+    font-size: 10px !important;
+  }
+  .upload {
+    flex-direction: column !important;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .prifle {
+    width: 100%;
+  }
+}

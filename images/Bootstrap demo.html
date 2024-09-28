@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    
+    
+    
+<link href="./Bootstrap demo_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"><link rel="stylesheet" href="./Bootstrap demo_files/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"><link rel="stylesheet" href="./Bootstrap demo_files/style.css"></head>
+
+<body cz-shortcut-listen="true">
+    <header class="bg-body-tertiary" style="padding: 30px 100px;">
+        <div class="logo text-center"><img src="./Bootstrap demo_files/logo.png" alt="" width="300"></div>
+        <div class="d-flex justify-content-between align-items-center mt-3">
+            <div class="cols d-flex align-items-center gap-2">
+                <div class="image"><img src="./Bootstrap demo_files/fb.png" alt="" width="30" height="30" style="cursor: pointer;">
+                </div>
+                <div class="image"><img src="./Bootstrap demo_files/insta.png" alt="" width="30" height="30" style="cursor: pointer;">
+                </div>
+                <div class="image"><img src="./Bootstrap demo_files/youtube.png" alt="" width="30" height="30" style="cursor: pointer;">
+                </div>
+            </div>
+            <div class="cols text-center" style="margin-left: 3rem;">
+                <h1 class="fs-4 fw-medium">Registration Form - SMIT</h1>
+                <p style="font-size: 13px; margin-top: 1rem;">Seevices - Education - Registration</p>
+            </div>
+            <div class="cols">
+                <button class="px-3 py-1 rounded-2 btn d-flex align-items-center gap-2" style="border: 1.3px solid #0D6DB7; color: #0D6DB7;">
+                    <i class="fas fa-user"></i>
+                    Student Portal
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="filters_buttons d-flex justify-content-center align-items-center gap-1">
+            <button class="btn px-4 py-2 bg-white border btn-sm filter-bt" style="
+    background: red;
+">Registration</button>
+            <button class="btn px-4 py-2 bg-white border btn-sm filter-bt">Download Id Card</button>
+            <button class="btn px-4 py-2 bg-white border btn-sm filter-bt">Result</button>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<script src="./Bootstrap demo_files/app.js.download"></script>
+<script src="./Bootstrap demo_files/bootstrap.bundle.min.js.download" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body></html>
